@@ -23,7 +23,7 @@ Port is the port number your server will listen on, pool-size is the number of t
 pool and -number-of-request is the maximum number of request your server will handle
 before it destroys the pool.
   
-## In your program you need to:
+## The program execute:
 1. Read request from socket
 2. Check input: The request first line should contain method, path and protocol. Here,
 you only have to check that there are 3 tokens and that the last one is one of the
